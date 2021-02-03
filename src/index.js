@@ -17,3 +17,24 @@ if(matrix) {
         return [];
     }
 }
+
+//second variant of solving
+// module.exports = function towelSort (matrix) {
+// if(matrix) {
+//     let commonArray = [];
+//     for (let i = 0; i < matrix.length; i++) {
+//     	const matrixLength = matrix[i].length;
+//     	for (let j = 0; j < matrixLength; j++) {
+//       	if(i % 2 !== 0) {
+//         	let oddElemPop = matrix[i].pop();
+//           commonArray.push(oddElemPop);
+//         } else {
+//         	commonArray.push(matrix[i][j]);
+//         }
+//       }
+//     }
+//     return commonArray;
+//   } else {
+//   	return [];
+//   }
+// }  
